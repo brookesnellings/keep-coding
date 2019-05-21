@@ -1,0 +1,44 @@
+body {
+  font-family: 'Muli', sans-serif;
+  text-align: center;
+  background-color: #fcfcfc;
+  display: flex;
+  flex-direction: column;
+}
+
+#quote {
+  font-size: 25px;
+  margin-block-start: 1em;
+  margin-block-end: 1.5em;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  width: 25em;
+  line-height: 40px;
+  letter-spacing: 0.01em;
+  padding: 12px 20px;
+  position: relative;
+  top: 100px;
+}
+
+p[type='button'] {
+  position: absolute;
+  left: 50%;
+  margin-left: -50px;
+  top: 50%;
+  margin-top: -50px;
+}
+
+button {
+  background-color: #4caf50; /* Green */
+  color: #fcfcfc;
+  font-family: 'Muli', sans-serif;
+  font-size: 17px;
+  border: none;
+  padding: 15px 32px;
+  text-decoration: none;
+  margin-top: 100px;
+}
+
+button:focus {
+  outline: 0;
+}
